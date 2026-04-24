@@ -1,3 +1,4 @@
+console.log(produtos);
 const loja = localStorage.getItem("loja");
 
 const nomesLojas = {
