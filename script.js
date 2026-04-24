@@ -1,3 +1,5 @@
+console.log("Loja selecionada:", loja);
+console.log("Produtos:", produtos);
 const loja = localStorage.getItem("loja");
 
 // 🔒 força escolher loja antes
