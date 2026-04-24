@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #fff8f0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: #8B4513;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #a0522d;
+}
+
+.lojas {
+  margin-top: 50px;
+}
+
+h2 {
+  margin-top: 30px;
+}
