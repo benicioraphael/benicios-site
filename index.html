@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Benício's Doceria</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Escolha sua unidade</h1>
+
+<div class="lojas">
+  <button onclick="selecionarLoja('centro')">Centro</button>
+  <button onclick="selecionarLoja('ilha')">Ilha do Governador</button>
+</div>
+
+<script>
+function selecionarLoja(loja) {
+  localStorage.setItem("loja", loja);
+  window.location.href = "loja.html";
+}
+</script>
+
+</body>
+</html>
