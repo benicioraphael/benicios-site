@@ -17,4 +17,4 @@ const produtos = [
     preco: 12,
     lojas: ["ilha"]
   }
-];
+]
